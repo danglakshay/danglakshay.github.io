@@ -55,6 +55,7 @@
 				$bg = $('<div class="bg"></div>').appendTo($t),
 				on, off;
 
+
 			on = function() {
 
 				$bg
@@ -121,7 +122,7 @@
 		$('.scrolly').scrolly();
 
 	// Background.
-		$wrapper._parallax(0.925);
+		//$wrapper._parallax(0.925);
 
 	// Nav Panel.
 
