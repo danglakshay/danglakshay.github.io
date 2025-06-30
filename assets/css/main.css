@@ -100,6 +100,12 @@ input, select, textarea {
 
 	body {
 		background-color: #1e252d;
+        background-image: url("../../images/bg7.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;  /* This makes the background stay fixed while scrolling */
+        min-height: 100vh;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3792,9 +3798,22 @@ input, select, textarea {
 				margin: 0 0 2rem 0;
 			}
 
+			#main > .post header.major > h3 {
+				font-size: 3rem;
+				line-height: 1.1;
+				margin: 0 0 2rem 0;
+			}
+
 			#main > .post.featured {
 				text-align: center;
 			}
+
+			#main > .post.featured p {
+				font-style: normal;
+				font-size: 1rem;
+			}
+
+			
 
 			@media screen and (max-width: 1280px) {
 
